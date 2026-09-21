@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you cite this computational research thesis, please use the metadata below. No DOI is minted here; do not invent one."
+type: thesis
+title: "Sparse connectome controllers under a sparse delayed liquid-biopsy-style observer"
+authors:
+  - family-names: Ogbonna
+    given-names: Kelechi Emeka
+    email: kelechiogbonna300@gmail.com
+    alias: cloudynirvana
+abstract: >-
+  Can sparse connectome-style controllers designed under full or dense
+  observation still meet their declared steering bounds when the only map is
+  the sparse delayed liquid-biopsy-style partial observer of Thesis #20?
+  On one two-clone toy they cannot. The frozen sparse controller of Thesis #6
+  meets a predeclared certificate under full state and under a dense
+  zero-order hold. The same controller, fed only the lagged, sparsely sampled,
+  censored burden scalar of Thesis #20, fails separation, action tracking,
+  duty, and input deviation. Burden bounds and a state-deviation bound still
+  pass. Restoring the sensitive fraction at the sparse instants returns the
+  noise-free certificate, so the failure is the missing composition channel.
+  The scalar is not a ctDNA assay. Not a dose. No document DOI.
+keywords:
+  - sparse controller
+  - partial observation
+  - steering bounds
+  - liquid-biopsy-style observer
+  - certainty equivalence
+  - connectome-style expansion
+  - toy ODE
+  - research-only
+license: MIT
+date-released: "2026-09-21"
+url: "https://github.com/cloudynirvana/thesis-27-sparse-controllers-partial-lb-observer"
+repository-code: "https://github.com/cloudynirvana/thesis-27-sparse-controllers-partial-lb-observer"
+preferred-citation:
+  type: thesis
+  title: "Sparse connectome controllers under a sparse delayed liquid-biopsy-style observer"
+  authors:
+    - family-names: Ogbonna
+      given-names: Kelechi Emeka
+  year: 2026
+  month: 9
+  url: "https://github.com/cloudynirvana/thesis-27-sparse-controllers-partial-lb-observer"
+  notes: "Thesis #27. Depends on Thesis #6 and Thesis #20. Computational research. Joint controller and observer toy, not a clinical result. No document DOI. Not a dose."
